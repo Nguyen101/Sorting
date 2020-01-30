@@ -14,9 +14,7 @@ int main() {
 	insertionSortArray(nums, size);
 	printArray(nums, size);
 	int in = linearSearchArray(nums, size, 9);
-	cout << in << endl;
 
-	return 0;
 }
 
 void insertionSortArray(int arr[], int size) {
